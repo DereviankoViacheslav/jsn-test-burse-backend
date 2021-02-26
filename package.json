@@ -1,0 +1,28 @@
+{
+  "name": "jsn-test-burse-backend",
+  "version": "1.0.0",
+  "description": "**Edit a file, create a new file, and clone from Bitbucket in under 2 minutes**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Viacheslav_JSN@bitbucket.org/Viacheslav_JSN/jsn-test-burse-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Viacheslav_JSN/jsn-test-burse-backend#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
